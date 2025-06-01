@@ -23,10 +23,13 @@ jobs:
       - name: Run script to generate M3U
         run: python filter_m3u.py
 
-      - name: Commit and push
-        run: |
-          git config --global user.name "Auto Bot"
-          git config --global user.email "auto@example.com"
-          git add bd-in-pk-sports.m3u
-          git diff --quiet || git commit -m "🔁 Auto-update M3U"
-          git push
+       - name: Commit and push
+  env:
+    TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  run: |
+    git config --global user.name "Auto Bot"
+    git config --global user.email "auto@example.com"
+    git remote set-url origin https://x-access-token:${TOKEN}@github.com/${{ github.repository }}
+    git add bd-in-pk-sports.m3u
+    git diff --quiet || git commit -m "🔁 Auto-update M3U"
+    git push origin HEAD:main
