@@ -2,38 +2,32 @@ name: Auto Update M3U
 
 on:
   schedule:
-    - cron: '0 */6 * * *'  # প্রতি ৬ ঘন্টায় চালাবে
-  workflow_dispatch:       # ম্যানুয়ালি রান দেওয়ার অপশন
+    - cron: '0 * * * *'
+  workflow_dispatch:
 
 jobs:
   update:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Set up job
-        run: echo "Running auto update job..."
+    - name: Checkout repository
+      uses: actions/checkout@v3
 
-      - name: Checkout code
-        uses: actions/checkout@v3
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
 
-      - name: Set up Python
-  uses: actions/setup-python@v4
-  with:
-    python-version: 3.11
+    - name: Install dependencies
+      run: pip install requests
 
-      - name: Install dependencies
-        run: pip install requests
+    - name: Run script to generate M3U
+      run: python generate.py
 
-      - name: Run script to generate M3U
-        run: python generate.py
-
-      - name: Commit and push
-        env:
-          TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          git config --global user.name "Auto Bot"
-          git config --global user.email "auto@example.com"
-          git remote set-url origin https://x-access-token:${TOKEN}@github.com/${{ github.repository }}
-          git add bd-in-pk-sports.m3u
-          git diff --quiet || git commit -m "🔁 Auto-update M3U"
-          git push origin HEAD:main
+    - name: Commit and push
+      run: |
+        git config --global user.name 'github-actions'
+        git config --global user.email 'github-actions@github.com'
+        git add .
+        git commit -m "Auto-update M3U"
+        git push
