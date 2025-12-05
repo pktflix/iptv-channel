@@ -14,7 +14,7 @@ http://87.255.35.150:18926
 http://87.255.35.150:18927
 #EXTINF:-1 tvg-id="SonySportsTen3.in@SD" tvg-logo="https://i.imgur.com/vG19HxD.png" group-title="Sports",Sony Sports Ten 3 (1080p)
 http://87.255.35.150:18848
-#EXTINF:-1 tvg-id="SonySportsTen5.in@SD" tvg-logo="https://i.imgur.com/40BbQUd.png" group-title="Sports" http-user-agent="stream",Sony Sports Ten 5 (1080p)
+#EXTINF:-1 tvg-id="SonySportsTen5.in@SD" tvg-logo="https://i.imgur.com/40BbQUd.png" group-title="Sports",Sony Sports Ten 5 (1080p)
 #EXTVLCOPT:http-user-agent=stream
 #EXTINF:-1 tvg-id="StarSports1.in@HD" tvg-logo="https://i.imgur.com/E5jjKHI.png" group-title="Sports",Star Sports 1 HD (1080p)
 http://87.255.35.150:18891
