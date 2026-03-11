@@ -4,6 +4,8 @@ https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/in
 http://hbbtvapp.ert.gr/stream.php/v/vid_ertsports_mpeg.2ts
 #EXTINF:-1 tvg-id="ERTSports2.gr@HD" tvg-logo="https://i.imgur.com/b2SNQPi.png" group-title="Sports",ERT Sports 2 (1080p)
 http://hbbtvapp.ert.gr/stream.php/v/vid_ertplay2_mpeg.2ts
+#EXTINF:-1 tvg-id="PTVSports.pk@SD" tvg-logo="https://i.imgur.com/CPm6GHA.png" group-title="Sports",PTV Sports (1080p)
+http://103.250.28.74:8000/play/a019/index.m3u8
 #EXTINF:-1 tvg-id="SonySportsTen1.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SPORTS_TEN_1/images/LOGO_HD/image.png" group-title="Sports",Sony Sports Ten 1 (576p)
 http://iptvcasomsapi.jprdigital.in/x-media/C0369/master.m3u8
 #EXTINF:-1 tvg-id="SonySportsTen1.in@HD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SPORTS_TEN_1/images/LOGO_HD/image.png" group-title="Sports",Sony Sports Ten 1 HD (1080p)
@@ -15,7 +17,7 @@ http://103.229.254.25:7001/play/a02t/index.m3u8
 #EXTINF:-1 tvg-id="SonySportsTen3Hindi.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0025TCMR.png?lock=720x540" group-title="Sports",Sony Sports Ten 3 Hindi (576p)
 http://103.229.254.25:7001/play/a09q/index.m3u8
 #EXTINF:-1 tvg-id="SonySportsTen3Hindi.in@HD" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0025TCMR.png?lock=720x540" group-title="Sports",Sony Sports Ten 3 Hindi HD (1080p)
-http://116.90.120.128:8000/play/a0jr/index.m3u88
+http://iptvcasomsapi.jprdigital.in/x-media/C0366/master.m3u8
 #EXTINF:-1 tvg-id="SonySportsTen5.in@HD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SPORTS_TEN_5/images/LOGO_HD/image.png" group-title="Sports",Sony Sports Ten 5 HD (1080p)
 http://103.229.254.25:7001/play/a0dw/index.m3u8
 #EXTINF:-1 tvg-id="StarSports1.in@SD" tvg-logo="https://i.imgur.com/E5jjKHI.png" group-title="Sports",Star Sports 1 (576p)
@@ -39,9 +41,9 @@ http://iptvcasomsapi.jprdigital.in/x-media/C0413/master.m3u8
 #EXTINF:-1 tvg-id="StarSports2.in@HD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_STAR_SPORTS_2/images/LOGO_HD/image.png" group-title="Sports",Star Sports 2 HD (1080p)
 http://103.121.6.5:8000/play/a05u/index.m3u8
 #EXTINF:-1 tvg-id="StarSports2Hindi.in@SD" tvg-logo="https://i.imgur.com/kHerF19.png" group-title="Sports",Star Sports 2 Hindi (576p)
-http://111.88.78.21:8000/play/a0x8/index.m3u8
+http://iptvcasomsapi.jprdigital.in/x-media/C0416/master.m3u8
 #EXTINF:-1 tvg-id="StarSports2Hindi.in@HD" tvg-logo="https://i.imgur.com/kHerF19.png" group-title="Sports",Star Sports 2 Hindi HD (1080p)
-http://103.113.103.202:8001/play/a028/index.m3u8
+http://iptvcasomsapi.jprdigital.in/x-media/C0446/master.m3u8
 #EXTINF:-1 tvg-id="StarSports2Kannada.in@SD" tvg-logo="https://i.imgur.com/LHuS2ev.png" group-title="Sports",Star Sports 2 Kannada (576p)
 http://iptvcasomsapi.jprdigital.in/x-media/C0422/master.m3u8
 #EXTINF:-1 tvg-id="StarSports2Tamil.in@SD" tvg-logo="https://i.imgur.com/eWPoUxB.png" group-title="Sports",Star Sports 2 Tamil (576p)
@@ -56,10 +58,6 @@ http://iptvcasomsapi.jprdigital.in/x-media/C0513/master.m3u8
 http://103.121.6.5:8000/play/a05y/index.m3u8
 #EXTINF:-1 tvg-id="StarSportsKhel.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_STAR_SPORTS_KHEL/images/LOGO_HD/LOGO_HD_image.png" group-title="Sports",Star Sports Khel (576p)
 http://iptvcasomsapi.jprdigital.in/x-media/C0423/master.m3u8
-#EXTINF:-1 tvg-id="StarSportsSelect1.in@HD" tvg-logo="https://i.imgur.com/Mh9tKPx.png" group-title="Sports",Star Sports Select 1 HD (1080p)
-http://103.113.103.202:8001/play/a02e/index.m3u8
-#EXTINF:-1 tvg-id="StarSportsSelect2.in@HD" tvg-logo="https://i.imgur.com/FtRT73R.png" group-title="Sports",Star Sports Select 2 HD (1080p)
-http://103.113.103.202:8001/play/a02q/index.m3u8
 #EXTINF:-1 tvg-id="TSports.bd@SD" tvg-logo="https://i.imgur.com/2JzlorD.png" group-title="Sports",T Sports (720p)
 https://tvsen7.aynaott.com/tsportshd/index.m3u8
 #EXTINF:-1 tvg-id="TenSportsPakistan.pk@SD" tvg-logo="https://i.imgur.com/nnqpYNm.png" group-title="Sports",Ten Sports Pakistan
